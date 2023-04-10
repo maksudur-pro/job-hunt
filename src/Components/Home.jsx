@@ -24,7 +24,7 @@ const Home = () => {
         <div>
           <h2 className="text-7xl font-bold">
             One Step <br /> Closer To Your{" "}
-            <span className="text-cyan-500">Dream Job</span>
+            <span className="text-violet-500">Dream Job</span>
           </h2>
           <p className="text-slate-400">
             Explore thousands of job opportunities with all the information you
@@ -32,7 +32,7 @@ const Home = () => {
             from start to finish.
           </p>
           <br />
-          <button className="btn">Get Started</button>
+          <button className="btn bg-violet-500">Get Started</button>
         </div>
         <div>
           <img src="/src/assets/P3OLGJ1 copy 1.png" alt="" />
@@ -67,7 +67,9 @@ const Home = () => {
         ))}
       </div>
       <div className="text-center">
-        <button onClick={() => setData(!data)} className="btn mb-7">
+        <button
+          onClick={() => setData(!data)}
+          className="btn mb-7 bg-violet-500">
           {data ? "see less" : "see more"}
         </button>
       </div>
