@@ -1,6 +1,7 @@
 import React from "react";
 import { getStoredCart } from "./utilities/FakeDb";
 import { useLoaderData } from "react-router-dom";
+import SingleAppliedJobs from "./SingleAppliedJobs";
 
 const AppliedJobs = () => {
   const applies = useLoaderData();
@@ -12,10 +13,11 @@ const AppliedJobs = () => {
       appJob.push(foundApplied);
     }
   }
-  console.log(appJob);
   return (
     <div>
-      <h1>Applied Jobs</h1>
+      {appJob.map((ap) => (
+        <SingleAppliedJobs ap={ap} key={ap.id}></SingleAppliedJobs>
+      ))}
     </div>
   );
 };
