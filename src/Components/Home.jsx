@@ -35,7 +35,7 @@ const Home = () => {
           <button className="btn bg-violet-500">Get Started</button>
         </div>
         <div>
-          <img src="/src/assets/P3OLGJ1 copy 1.png" alt="" />
+          <img src="https://i.ibb.co/H7s5rnR/P3-OLGJ1-copy-1.png" alt="" />
         </div>
       </div>
       {/* JOB CATEGORY */}

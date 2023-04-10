@@ -1,24 +1,24 @@
 [
   {
-    "icon": "/src/assets/Icons/accounts 1.png",
+    "icon": "https://i.ibb.co/JqnhVWC/accounts-1.png",
     "title": "Account & Finance",
     "subtitle": "300 Jobs Available",
     "id": 1
   },
   {
-    "icon": "/src/assets/Icons/business 1.png",
+    "icon": "https://i.ibb.co/mz4FLQz/business-1.png",
     "title": "Creative Design",
     "subtitle": "100+ Jobs Available",
     "id": 2
   },
   {
-    "icon": "/src/assets/Icons/social-media 1.png",
+    "icon": "https://i.ibb.co/3TprSGp/social-media-1.png",
     "title": "Marketing & Sales",
     "subtitle": "200+ Jobs Available",
     "id": 3
   },
   {
-    "icon": "/src/assets/Icons/chip 1.png",
+    "icon": "https://i.ibb.co/18pcq3z/chip-1.png",
     "title": "Engineering Jobs",
     "subtitle": "265 Jobs Available",
     "id": 4
