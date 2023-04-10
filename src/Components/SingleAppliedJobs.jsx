@@ -17,8 +17,8 @@ const SingleAppliedJobs = ({ ap }) => {
             </div>
             <div>
               <p>{title}</p>
-              <div className="fle ">
-                <button>{type}</button>
+              <div>
+                <button className="mr-3">{type}</button>
                 <button>{work}</button>
               </div>
               <div className="flex">

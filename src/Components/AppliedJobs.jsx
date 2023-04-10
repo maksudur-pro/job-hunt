@@ -14,7 +14,8 @@ const AppliedJobs = () => {
     }
   }
   return (
-    <div>
+    <div className="my-container">
+      <h1 className="text-2xl text-center font-bold mb-10">Applied Jobs</h1>
       {appJob.map((ap) => (
         <SingleAppliedJobs ap={ap} key={ap.id}></SingleAppliedJobs>
       ))}
