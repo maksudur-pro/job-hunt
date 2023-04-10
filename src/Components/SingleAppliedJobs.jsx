@@ -27,14 +27,13 @@ const SingleAppliedJobs = ({ ap }) => {
               <p>{salary}</p>
             </div>
           </div>
-          <Link to={`details/${id}`}>
+          <Link to={`/details/${id}`}>
             <button className="p-2 mt-2 bg-violet-400 rounded text-white font-semibold shadow-lg">
               View Details
             </button>
           </Link>
         </div>
       </div>
-      {/* </div>  */}
     </div>
   );
 };
