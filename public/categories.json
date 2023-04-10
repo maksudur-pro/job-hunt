@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "/src/assets/Icons/accounts 1.png",
+    "title": "Account & Finance",
+    "subtitle": "300 Jobs Available",
+    "id": 1
+  },
+  {
+    "icon": "/src/assets/Icons/business 1.png",
+    "title": "Creative Design",
+    "subtitle": "100+ Jobs Available",
+    "id": 2
+  },
+  {
+    "icon": "/src/assets/Icons/social-media 1.png",
+    "title": "Marketing & Sales",
+    "subtitle": "200+ Jobs Available",
+    "id": 3
+  },
+  {
+    "icon": "/src/assets/Icons/chip 1.png",
+    "title": "Engineering Jobs",
+    "subtitle": "265 Jobs Available",
+    "id": 4
+  }
+]

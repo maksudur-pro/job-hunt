@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "logo": "https://th.bing.com/th/id/R.4e43d9652e2db6893a80eadf4dab2fdb?rik=LftBPmTjkJuxHQ&riu=http%3a%2f%2fcdn2.mhpbooks.com%2f2016%2f02%2fgoogle.jpg&ehk=D53VyCD6RUFxpIb7FDswn2Ebr36hg4ZaD9Y%2f4DYQKwA%3d&risl=&pid=ImgRaw&r=0",
+    "title": "Software Engineer",
+    "name": "Company 1",
+    "type": "Remote",
+    "location": "Anywhere",
+    "work": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "description": "We are seeking a highly motivated software engineer to join our team.",
+    "responsibility": "Design and implement software solutions that meet customer needs",
+    "requirements": "Bachelor’s degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software engineering",
+    "contact": {
+      "phone": "123-456-7890",
+      "email": "jobs@company1.com"
+    }
+  },
+  {
+    "id": 2,
+    "logo": "https://i2.wp.com/www.verifiedmom.com/wp-content/uploads/2014/07/Netflix_Logo_Print_OneColorPMS.png?fit=8685%2C2333&ssl=1",
+    "title": "Data Scientist",
+    "name": "Company 2",
+    "type": "Onsite",
+    "location": "New York, NY",
+    "work": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "description": "We are seeking a highly skilled data scientist to work on our cutting-edge projects.",
+    "responsibility": "Develop and deploy machine learning models for various projects",
+    "requirements": "Master’s degree or higher in Computer Science, Statistics or related field",
+    "experiences": "5+ years of experience in data science",
+    "contact": {
+      "phone": "111-222-3333",
+      "email": "jobs@company2.com"
+    }
+  },
+  {
+    "id": 3,
+    "logo": "https://travelshopgirl.com/wp-content/uploads/2015/10/airbnb_horizontal_lockup_web.jpg",
+    "title": "Software Engineer",
+    "name": "Acme Inc.",
+    "type": "Remote",
+    "location": "Anywhere",
+    "work": "Full-time",
+    "salary": "$120,000 - $150,000",
+    "description": "Acme Inc. is looking for an experienced Software Engineer to join our team. In this role, you will be responsible for developing and maintaining high-quality software products for our clients.",
+    "responsibility": "- Develop and maintain software products\n- Collaborate with cross-functional teams to identify and solve complex problems\n- Write clean, maintainable code\n- Participate in code reviews\n- Provide technical guidance to junior engineers",
+    "requirements": "Bachelor’s or Master’s degree in Computer Science or related field",
+    "experiences": "3+ years of experience in software development",
+    "contact": {
+      "phone": "555-555-1234",
+      "email": "careers@acme.com"
+    }
+  },
+  {
+    "id": 4,
+    "logo": "https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png",
+    "title": "Marketing Manager",
+    "name": "Beta Corp.",
+    "type": "Onsite",
+    "location": "New York, NY",
+    "work": "Full-time",
+    "salary": "$80,000 - $100,000",
+    "description": "Beta Corp. is seeking a Marketing Manager to develop and implement marketing strategies that will increase brand awareness and drive sales.",
+    "responsibility": "- Develop and implement marketing strategies\n- Analyze market trends and competitor activity\n- Manage a team of marketing professionals\n- Monitor and report on marketing campaign performance\n- Collaborate with cross-functional teams to align marketing with business objectives",
+    "requirements": "Bachelor’s or Master’s degree in Marketing or related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact": {
+      "phone": "555-555-5678",
+      "email": "jobs@beta.com"
+    }
+  },
+  {
+    "id": 5,
+    "logo": "https://musically.com/wp-content/uploads/2019/03/youtube.jpg",
+    "title": "Customer Service Representative",
+    "name": "Gamma Enterprises",
+    "type": "Onsite",
+    "location": "Los Angeles, CA",
+    "work": "Part-time",
+    "salary": "$20 - $25 per hour",
+    "description": "Gamma Enterprises is seeking a part-time Customer Service Representative to provide exceptional customer service to our clients.",
+    "responsibility": "- Respond to customer inquiries via phone, email, and chat\n- Resolve customer complaints and issues\n- Document customer interactions\n- Collaborate with cross-functional teams to ensure customer satisfaction",
+    "requirements": "High School diploma or equivalent",
+    "experiences": "1+ years of customer service experience",
+    "contact": {
+      "phone": "555-555-9012",
+      "email": "info@gamma.com"
+    }
+  },
+  {
+    "id": 6,
+    "logo": "https://www.topmediagroep.nl/data/lijsten/public/tesla-logo.png",
+    "title": "Customer Service Representative",
+    "name": "Gamma Enterprises",
+    "type": "Onsite",
+    "location": "Los Angeles, CA",
+    "work": "Part-time",
+    "salary": "$20 - $25 per hour",
+    "description": "Gamma Enterprises is seeking a part-time Customer Service Representative to provide exceptional customer service to our clients.",
+    "responsibility": "- Respond to customer inquiries via phone, email, and chat\n- Resolve customer complaints and issues\n- Document customer interactions\n- Collaborate with cross-functional teams to ensure customer satisfaction",
+    "requirements": "High School diploma or equivalent",
+    "experiences": "1+ years of customer service experience",
+    "contact": {
+      "phone": "555-555-9012",
+      "email": "info@gamma.com"
+    }
+  }
+]
