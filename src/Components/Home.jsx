@@ -69,8 +69,8 @@ const Home = () => {
       <div className="text-center">
         <button
           onClick={() => setData(!data)}
-          className="btn mb-7 bg-violet-500">
-          {data ? "see less" : "see more"}
+          className={`${data ? "hidden" : "btn mb-7 bg-violet-500"}`}>
+          see more
         </button>
       </div>
     </div>
