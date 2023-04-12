@@ -19,7 +19,9 @@ const Feature = ({ feature }) => {
         </div>
         <div>
           <Link to={`details/${id}`}>
-            <button className="btn bg-violet-500">View Details</button>
+            <button className="btn border-none bg-violet-500 hover:bg-violet-700">
+              View Details
+            </button>
           </Link>
         </div>
       </div>

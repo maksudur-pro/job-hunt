@@ -28,7 +28,7 @@ const SingleAppliedJobs = ({ ap }) => {
             </div>
           </div>
           <Link to={`/details/${id}`}>
-            <button className="p-2 mt-2 bg-violet-400 rounded text-white font-semibold shadow-lg">
+            <button className="p-2 mt-2 border-none bg-violet-500 hover:bg-violet-700 rounded text-white font-semibold shadow-lg">
               View Details
             </button>
           </Link>

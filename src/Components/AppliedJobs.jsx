@@ -23,14 +23,13 @@ const AppliedJobs = () => {
       return job.type === "Onsite";
     }
   });
-  console.log(filterData);
   return (
     <div className="my-container">
       <div className="text-end">
         <div className="dropdown">
           <label
             tabIndex={0}
-            className="btn btn-outline m-1 bg-gray-300 text-black">
+            className="btn border-none bg-violet-500 hover:bg-violet-700">
             Sort By{" "}
             <svg
               className="fill-current"
@@ -45,13 +44,25 @@ const AppliedJobs = () => {
             tabIndex={0}
             className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
             <li>
-              <button onClick={() => setFilter("all")}>All</button>
+              <button
+                onClick={() => setFilter("all")}
+                className="hover:bg-violet-700 hover:text-white">
+                All
+              </button>
             </li>
             <li>
-              <button onClick={() => setFilter("Onsite")}>Onsite</button>
+              <button
+                onClick={() => setFilter("Onsite")}
+                className="hover:bg-violet-700 hover:text-white">
+                Onsite
+              </button>
             </li>
             <li>
-              <button onClick={() => setFilter("Remote")}>Remote</button>
+              <button
+                onClick={() => setFilter("Remote")}
+                className="hover:bg-violet-700 hover:text-white">
+                Remote
+              </button>
             </li>
           </ul>
         </div>

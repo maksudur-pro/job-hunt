@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import JobCategory from "./JobCategory";
 import Feature from "./Feature";
-import { Link, useLoaderData } from "react-router-dom";
-import ViewDetails from "./ViewDetails";
 
 const Home = () => {
   const [features, setFeatures] = useState([]);
@@ -32,7 +30,9 @@ const Home = () => {
             from start to finish.
           </p>
           <br />
-          <button className="btn bg-violet-500">Get Started</button>
+          <button className="btn border-none bg-violet-500 hover:bg-violet-700">
+            Get Started
+          </button>
         </div>
         <div>
           <img src="https://i.ibb.co/H7s5rnR/P3-OLGJ1-copy-1.png" alt="" />
@@ -69,7 +69,11 @@ const Home = () => {
       <div className="text-center">
         <button
           onClick={() => setData(!data)}
-          className={`${data ? "hidden" : "btn mb-7 bg-violet-500"}`}>
+          className={`${
+            data
+              ? "hidden"
+              : "btn mb-7 border-none bg-violet-500 hover:bg-violet-700"
+          }`}>
           see more
         </button>
       </div>

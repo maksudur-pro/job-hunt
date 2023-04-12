@@ -1,5 +1,11 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { addToDb } from "./utilities/FakeDb";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDollar } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocation } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 const ViewDetails = () => {
   const params = useParams();
@@ -41,30 +47,45 @@ const ViewDetails = () => {
           <p className="text-2xl font-bold">Job Details</p>
           <hr />
           <p>
-            <span className="text-xl font-bold">Salary : </span>
+            <span className="text-xl font-bold">
+              <FontAwesomeIcon icon={faDollar} className="text-violet-500" />{" "}
+              Salary :{" "}
+            </span>
             {salary}
           </p>
           <p>
-            <span className="text-xl font-bold">Job Title : </span>
+            <span className="text-xl font-bold">
+              <FontAwesomeIcon icon={faBriefcase} className="text-violet-500" />{" "}
+              Job Title :{" "}
+            </span>
             {title}
           </p>
           <p className="text-2xl font-bold">Contact Information</p>
           <hr />
           <p>
-            <span className="text-xl font-bold">Phone : </span>
+            <span className="text-xl font-bold">
+              <FontAwesomeIcon icon={faPhone} className="text-violet-500" />{" "}
+              Phone :{" "}
+            </span>
             {contact.phone}
           </p>
           <p>
-            <span className="text-xl font-bold">Email : </span>
+            <span className="text-xl font-bold">
+              <FontAwesomeIcon icon={faEnvelope} className="text-violet-500" />{" "}
+              Email :{" "}
+            </span>
             {contact.email}
           </p>
           <p>
-            <span className="text-xl font-bold">Address : </span>
+            <span className="text-xl font-bold">
+              <FontAwesomeIcon icon={faLocation} className="text-violet-500" />{" "}
+              Address :{" "}
+            </span>
             {location}
           </p>
           <button
             onClick={() => handleAdd(id)}
-            className="btn w-full bg-violet-500">
+            className="btn w-full border-none bg-violet-500 hover:bg-violet-700">
             Apply Now
           </button>
         </div>

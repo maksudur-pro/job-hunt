@@ -64,7 +64,9 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn bg-violet-500">Star Applying</a>
+        <a className="btn border-none bg-violet-500 hover:bg-violet-700">
+          Star Applying
+        </a>
       </div>
     </div>
   );
